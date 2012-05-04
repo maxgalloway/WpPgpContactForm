@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!--
+This file is intended for the site owner. This page is a frontend for
+the javascript utilites that will strip out the necessary parts of
+your public key needed for config.js.
+
+Copyright (C) 2012 Max Galloway-Carson maxvgc@gmail.com
+
+This file is part of WpPgpContactForm.
+
+WpPgpContactForm is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>encrypt and send with js/ajax/php</title>
+
+    <script src="sha1.js" type="text/javascript"></script>
+    <script src="../js_lib/base64.js" type="text/javascript"></script>
+    <script src="PGpubkey.js" type="text/javascript"></script>
+
+    <script src="extractKey.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <p>Paste public key block here.</p>
+    <!--All this form needs is your public key-->
+    <form name="putKey" action="javascript:getkey()">
+      <div>
+	
+	<textarea id="pubkeyBlock" rows=14 cols=90></textarea>
+	<br>
+
+	<input type=submit value="Get Public Key Information">
+      </div>
+    </form>
+    
+    <!--the public key data will populate the following fields-->
+      <div>
+	Version: <input size="40" id="vers" readonly>
+	<br>
+	
+	User ID: <input size=40 id="pkUser" readonly>
+	<br>
+	
+	Key ID (8 bytes in hex): <input size=40 id="pKeyid" readonly>
+	
+	Public Key type: <input size=40 id="pktype" readonly>
+	<br>
+	
+	Public Key value:<input size=100 id="pkey" readonly>
+
+	<p>
+	  If everything looks right, paste this info into config.js in
+	  this file's directory. 
+	</p>
+      </div>
+
+  </body>
+</html>
