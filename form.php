@@ -48,6 +48,7 @@ echo <<<EOT
       usesless without it.</p>
     </noscript>
 
+    <p>send me a secure message</p>
     <!--This first form just takes your message and encrypts it.-->
     <form name="encode" action="javascript:encrypt('text')">
       <div>
