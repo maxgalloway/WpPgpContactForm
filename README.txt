@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Widget for generating pgp encrypted messages in javascript (and
-sending in php).
+sending in php).Download from https://wordpress.org/extend/plugins/pgpcontactform/
 
 == Description ==
 
