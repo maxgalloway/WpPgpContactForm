@@ -5,7 +5,7 @@ This is the server-side file that handles input from the client. It
 first checks the challenge-response text, and (depending) generates an
 email to you.
 
-Copyright (C) 2012 Max Galloway webmaster@pwipw.com
+Copyright (C) 2016 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 

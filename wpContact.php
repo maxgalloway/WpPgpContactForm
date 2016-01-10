@@ -7,7 +7,7 @@ Description: A Wordpress widget that sends PGP messages via ajax.
 Author: Max Galloway
 Author URI: http://github.com/maxgalloway
 
-Copyright (C) 2012 Max Galloway webmaster@pwipw.com
+Copyright (C) 2016 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 

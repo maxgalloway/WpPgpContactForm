@@ -3,7 +3,7 @@
 This file uses a whole lot of ajax to submit the data to the server,
 and interpret the error (or success) codes.
 
-Copyright (C) 2012 Max Galloway webmaster@pwipw.com
+Copyright (C) 2016 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 
