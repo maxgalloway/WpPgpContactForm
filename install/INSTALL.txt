@@ -9,7 +9,7 @@ Config.php just needs your email address.
 
 Once you fill in these values, it should just work.
 
-Copyright (C) 2012 Max Galloway-Carson maxvgc@gmail.com
+Copyright (C) 2012 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 

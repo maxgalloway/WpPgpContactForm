@@ -1,7 +1,7 @@
 <?php
-$GLOBALS['recipient'] = 'you@example.com.com';
+$GLOBALS['recipient'] = 'you@example.com';
 /**
-Copyright (C) 2012 Max Galloway-Carson maxvgc@gmail.com
+Copyright (C) 2012 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 

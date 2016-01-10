@@ -1,5 +1,5 @@
 === PgpContactForm ===
-Contributors: maxvgc
+Contributors: maxgalloway
 Donate link: 
 Tags: comments, spam
 Requires at least: 2.0.2

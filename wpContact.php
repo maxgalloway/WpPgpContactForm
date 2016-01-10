@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: wpContact
-Plugin URI: https://github.com/maxvgc/WpPgpContactForm
+Plugin URI: https://github.com/maxgalloway/WpPgpContactForm
 Version: 1.0
 Description: A Wordpress widget that sends PGP messages via ajax.
-Author: Max Galloway-Carson
-Author URI: http://maxvgc.com
+Author: Max Galloway
+Author URI: http://github.com/maxgalloway
 
-Copyright (C) 2012 Max Galloway-Carson maxvgc@gmail.com
+Copyright (C) 2012 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 

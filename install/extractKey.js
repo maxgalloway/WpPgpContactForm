@@ -3,7 +3,7 @@
 This file will parse out your public key's information, and populate
 the fields in index.html. (which you will use to fill in config.js
 
-Copyright (C) 2012 Max Galloway-Carson maxvgc@gmail.com
+Copyright (C) 2012 Max Galloway webmaster@pwipw.com
 
 This file is part of WpPgpContactForm.
 
